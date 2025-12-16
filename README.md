@@ -19,6 +19,10 @@
 - [L200 — Technical Implementation & Azure AI](#-l200--technical-implementation--azure-ai)
 - [L300 — Advanced AI & Agentic Systems](#-l300--advanced-ai--agentic-systems)
 - [L400 — Expert-Level Leadership & Strategy](#-l400--expert-level-leadership--strategy)
+  - [LLM Fine-Tuning Deep Dive](#-llm-fine-tuning-deep-dive)
+  - [Microsoft Azure AI Foundry](#-microsoft-azure-ai-foundry)
+  - [Advanced RAG Patterns & Architectures](#-advanced-rag-patterns--architectures)
+  - [Top GenAI GitHub Repositories](#-top-genai-github-repositories--sample-projects)
 - [Generative AI & LLM Resources](#-generative-ai--llm-resources)
 - [Microsoft Copilot & AI Studio](#-microsoft-copilot--ai-studio)
 - [Recommended Learning Sequences](#-recommended-learning-sequences)
@@ -194,7 +198,153 @@ The AI landscape has evolved significantly. Here are the key trends this roadmap
 | 9 | **Complete AI Learning Roadmap** (Krish Naik) | Three tracks: Data Science · Gen AI · Agentic AI | [GitHub](https://github.com/krishnaik06/Complete-RoadMap-To-Learn-AI) |
 | 10 | **Stanford CS229 Machine Learning** | Graduate-level ML | [Stanford Online](https://online.stanford.edu/courses/cs229-machine-learning) |
 | 11 | **Stanford CS224N NLP with Deep Learning** | Advanced NLP course | [Stanford Online](https://online.stanford.edu/courses/cs224n-natural-language-processing-deep-learning) |
-| 12 | **fast.ai Practical Deep Learning** | Hands-on deep learning | [fast.ai](https://www.fast.ai/)
+| 12 | **fast.ai Practical Deep Learning** | Hands-on deep learning | [fast.ai](https://www.fast.ai/) |
+
+### 🎛️ LLM Fine-Tuning Deep Dive
+
+> Expert-level resources for customizing and fine-tuning Large Language Models
+
+| # | Resource | Details | Link |
+|---|----------|---------|------|
+| 13 | **Fine-Tuning LLMs with PEFT & LoRA** (Hugging Face) | Parameter-efficient fine-tuning techniques | [Hugging Face Docs](https://huggingface.co/docs/peft) |
+| 14 | **QLoRA: Efficient Finetuning of Quantized LLMs** | Memory-efficient fine-tuning | [GitHub](https://github.com/artidoro/qlora) |
+| 15 | **Axolotl Fine-Tuning Framework** | Streamlined LLM fine-tuning | [GitHub](https://github.com/OpenAccess-AI-Collective/axolotl) |
+| 16 | **LLaMA-Factory** | Easy-to-use LLM fine-tuning framework | [GitHub](https://github.com/hiyouga/LLaMA-Factory) |
+| 17 | **Unsloth** | 2-5x faster fine-tuning with 80% less memory | [GitHub](https://github.com/unslothai/unsloth) |
+| 18 | **Azure OpenAI Fine-Tuning Guide** | Enterprise fine-tuning on Azure | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-services/openai/how-to/fine-tuning) |
+| 19 | **Full Fine-Tuning vs PEFT Comparison** (Sebastian Raschka) | In-depth analysis of fine-tuning methods | [Lightning AI](https://lightning.ai/pages/community/lora-insights/) |
+
+#### Fine-Tuning Techniques Reference
+
+| Technique | Memory | Speed | Use Case |
+|-----------|--------|-------|----------|
+| **Full Fine-Tuning** | High | Slow | Maximum customization |
+| **LoRA** | Low | Fast | General purpose |
+| **QLoRA** | Very Low | Medium | Resource-constrained |
+| **Prefix Tuning** | Low | Fast | Task-specific prompts |
+| **Adapter Layers** | Medium | Medium | Multi-task learning |
+
+### 🏭 Microsoft Azure AI Foundry
+
+> Enterprise AI platform for building, customizing, and deploying AI solutions at scale
+
+| # | Resource | Details | Link |
+|---|----------|---------|------|
+| 20 | **Azure AI Foundry Overview** | Unified AI development platform | [Azure AI Foundry](https://azure.microsoft.com/en-us/products/ai-studio/) |
+| 21 | **Azure AI Foundry Documentation** | Complete technical documentation | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-studio/) |
+| 22 | **Build with Azure AI Foundry SDK** | SDK for programmatic access | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/sdk-generative-ai) |
+| 23 | **Model Catalog in Azure AI Foundry** | Access 1,600+ foundation models | [Azure AI Model Catalog](https://ai.azure.com/explore/models) |
+| 24 | **Prompt Flow in Azure AI Foundry** | LLM app development workflow | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/prompt-flow) |
+| 25 | **Deploy Models with Azure AI Foundry** | Production deployment patterns | [Microsoft Learn](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/deploy-models-openai) |
+| 26 | **Azure AI Foundry VS Code Extension** | IDE integration for AI development | [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azure-ai) |
+
+#### Azure AI Foundry Capabilities
+
+| Feature | Description |
+|---------|-------------|
+| **Model Catalog** | Access to OpenAI, Meta Llama, Mistral, Cohere, and 1,600+ models |
+| **Prompt Flow** | Visual designer for LLM application workflows |
+| **Fine-Tuning** | Customize models with your enterprise data |
+| **Evaluation** | Built-in metrics for model quality assessment |
+| **Responsible AI** | Content safety, groundedness detection, and fairness tools |
+| **Deployment** | Real-time and batch inference endpoints |
+
+### 🔍 Advanced RAG Patterns & Architectures
+
+> Expert-level Retrieval-Augmented Generation techniques for production systems
+
+| # | Resource | Details | Link |
+|---|----------|---------|------|
+| 27 | **Advanced RAG Techniques** (LlamaIndex) | Comprehensive RAG patterns guide | [LlamaIndex Docs](https://docs.llamaindex.ai/en/stable/optimizing/advanced_retrieval/) |
+| 28 | **RAG From Scratch** (LangChain) | Deep dive video series | [YouTube Playlist](https://www.youtube.com/playlist?list=PLfaIDFEXuae2LXbO1_PKyVJiQ23ZztA0x) |
+| 29 | **Microsoft GraphRAG** | Graph-based RAG for complex queries | [GitHub](https://github.com/microsoft/graphrag) |
+| 30 | **Contextual Retrieval** (Anthropic) | State-of-the-art retrieval improvements | [Anthropic Blog](https://www.anthropic.com/news/contextual-retrieval) |
+| 31 | **RAPTOR: Recursive Abstractive Processing** | Hierarchical document summarization for RAG | [GitHub](https://github.com/parthsarthi03/raptor) |
+| 32 | **ColBERT v2** | Late-interaction retrieval for efficient RAG | [GitHub](https://github.com/stanford-futuredata/ColBERT) |
+| 33 | **Haystack RAG Framework** | Production-ready RAG pipelines | [GitHub](https://github.com/deepset-ai/haystack) |
+
+#### RAG Architecture Patterns
+
+| Pattern | Description | Best For |
+|---------|-------------|----------|
+| **Naive RAG** | Simple retrieve-then-generate | Quick prototypes |
+| **Advanced RAG** | Query rewriting, reranking, hybrid search | Production systems |
+| **Modular RAG** | Pluggable components for each stage | Complex requirements |
+| **GraphRAG** | Knowledge graph-enhanced retrieval | Complex reasoning |
+| **Agentic RAG** | Agent-driven adaptive retrieval | Multi-step queries |
+| **Self-RAG** | Self-reflective retrieval | High-accuracy needs |
+
+### 🚀 Top GenAI GitHub Repositories & Sample Projects
+
+> Best-in-class open-source projects for learning and building production GenAI systems
+
+#### 🏆 LLM Frameworks & Libraries
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 34 | **LangChain** | 95k+ | Framework for LLM-powered applications | [GitHub](https://github.com/langchain-ai/langchain) |
+| 35 | **LlamaIndex** | 35k+ | Data framework for LLM applications | [GitHub](https://github.com/run-llama/llama_index) |
+| 36 | **Semantic Kernel** | 22k+ | Microsoft's AI orchestration SDK | [GitHub](https://github.com/microsoft/semantic-kernel) |
+| 37 | **Haystack** | 17k+ | End-to-end NLP framework | [GitHub](https://github.com/deepset-ai/haystack) |
+| 38 | **DSPy** | 18k+ | Programming with foundation models | [GitHub](https://github.com/stanfordnlp/dspy) |
+
+#### 🤖 AI Agent Frameworks
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 39 | **AutoGen** | 35k+ | Microsoft's multi-agent framework | [GitHub](https://github.com/microsoft/autogen) |
+| 40 | **CrewAI** | 22k+ | Multi-agent orchestration framework | [GitHub](https://github.com/joaomdmoura/crewAI) |
+| 41 | **LangGraph** | 7k+ | Stateful agent framework | [GitHub](https://github.com/langchain-ai/langgraph) |
+| 42 | **OpenAI Swarm** | 17k+ | Lightweight multi-agent orchestration | [GitHub](https://github.com/openai/swarm) |
+| 43 | **AutoGPT** | 169k+ | Autonomous GPT-4 agent | [GitHub](https://github.com/Significant-Gravitas/AutoGPT) |
+
+#### 🔧 LLM Development & Fine-Tuning
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 44 | **Ollama** | 100k+ | Run LLMs locally | [GitHub](https://github.com/ollama/ollama) |
+| 45 | **vLLM** | 30k+ | High-throughput LLM serving | [GitHub](https://github.com/vllm-project/vllm) |
+| 46 | **Text Generation WebUI** | 41k+ | Gradio web UI for LLMs | [GitHub](https://github.com/oobabooga/text-generation-webui) |
+| 47 | **LocalAI** | 25k+ | OpenAI-compatible local inference | [GitHub](https://github.com/mudler/LocalAI) |
+| 48 | **LitGPT** | 10k+ | Pretrain, finetune, deploy LLMs | [GitHub](https://github.com/Lightning-AI/litgpt) |
+
+#### 📚 Learning Resources & Tutorials
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 49 | **Generative AI for Beginners** (Microsoft) | 65k+ | 21-lesson course | [GitHub](https://github.com/microsoft/generative-ai-for-beginners) |
+| 50 | **LLM Course** (Maxime Labonne) | 40k+ | Complete LLM course with notebooks | [GitHub](https://github.com/mlabonne/llm-course) |
+| 51 | **Awesome LLM** | 18k+ | Curated list of LLM resources | [GitHub](https://github.com/Hannibal046/Awesome-LLM) |
+| 52 | **Open LLMs** | 12k+ | List of open-source LLMs | [GitHub](https://github.com/eugeneyan/open-llms) |
+| 53 | **LLM Engineering** (DataTalks.Club) | 5k+ | Practical LLM engineering course | [GitHub](https://github.com/DataTalksClub/llm-zoomcamp) |
+
+#### 🏗️ RAG & Vector Databases
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 54 | **Chroma** | 15k+ | AI-native embedding database | [GitHub](https://github.com/chroma-core/chroma) |
+| 55 | **Qdrant** | 20k+ | High-performance vector database | [GitHub](https://github.com/qdrant/qdrant) |
+| 56 | **Milvus** | 31k+ | Scalable vector database | [GitHub](https://github.com/milvus-io/milvus) |
+| 57 | **Weaviate** | 12k+ | AI-native vector database | [GitHub](https://github.com/weaviate/weaviate) |
+| 58 | **RAGFlow** | 25k+ | Open-source RAG engine | [GitHub](https://github.com/infiniflow/ragflow) |
+
+#### 🎨 Multimodal & Vision
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 59 | **LLaVA** | 20k+ | Large Language and Vision Assistant | [GitHub](https://github.com/haotian-liu/LLaVA) |
+| 60 | **Stable Diffusion WebUI** | 145k+ | Popular image generation UI | [GitHub](https://github.com/AUTOMATIC1111/stable-diffusion-webui) |
+| 61 | **ComfyUI** | 60k+ | Node-based Stable Diffusion UI | [GitHub](https://github.com/comfyanonymous/ComfyUI) |
+
+#### 🔒 Enterprise & Production
+
+| # | Repository | Stars | Description | Link |
+|---|------------|-------|-------------|------|
+| 62 | **LiteLLM** | 15k+ | Unified API for 100+ LLMs | [GitHub](https://github.com/BerriAI/litellm) |
+| 63 | **PrivateGPT** | 54k+ | Private document Q&A | [GitHub](https://github.com/zylon-ai/private-gpt) |
+| 64 | **OpenWebUI** | 50k+ | Self-hosted ChatGPT-like interface | [GitHub](https://github.com/open-webui/open-webui) |
+| 65 | **Dify** | 55k+ | LLMOps platform for app development | [GitHub](https://github.com/langgenius/dify) |
+| 66 | **Flowise** | 32k+ | Drag & drop LLM flow builder | [GitHub](https://github.com/FlowiseAI/Flowise) |
 
 ---
 
