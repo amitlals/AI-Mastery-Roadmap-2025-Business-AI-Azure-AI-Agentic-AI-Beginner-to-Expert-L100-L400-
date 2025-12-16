@@ -15,6 +15,7 @@
 - [Recommended Learning Sequences](#-recommended-learning-sequences)
 - [Key Microsoft Learn Resources](#-key-microsoft-learn-resources)
 - [Community & Support](#-community--support)
+- [Contributors](#-contributors)
 - [Notes](#-notes)
 
 ---
@@ -130,6 +131,13 @@ A clean, no-fluff progression to understand **what to learn, in what order**, us
 ## 🤝 Community & Support
 - **Microsoft Learn Community** (forums, expert answers)  
 - **Live Learning & Challenges** (e.g., Microsoft AI Skills Challenge)
+
+---
+
+## 👥 Contributors
+<!-- ALL-CONTRIBUTORS-LIST:START -->
+- [Copilot](https://github.com/features/copilot) — AI pair programmer
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ---
 
