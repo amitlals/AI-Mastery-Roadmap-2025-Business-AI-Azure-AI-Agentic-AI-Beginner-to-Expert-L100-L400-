@@ -19,7 +19,7 @@
 - [L200 — Technical Implementation & Azure AI](#-l200--technical-implementation--azure-ai)
 - [L300 — Advanced AI & Agentic Systems](#-l300--advanced-ai--agentic-systems)
 - [L400 — Expert-Level Leadership & Strategy](#-l400--expert-level-leadership--strategy)
-  - [LLM Fine-Tuning Deep Dive](#️-llm-fine-tuning-deep-dive)
+  - [LLM Fine-Tuning Deep Dive](#-llm-fine-tuning-deep-dive)
   - [Microsoft Azure AI Foundry](#-microsoft-azure-ai-foundry)
   - [Advanced RAG Patterns & Architectures](#-advanced-rag-patterns--architectures)
   - [Top GenAI GitHub Repositories](#-top-genai-github-repositories--sample-projects)
